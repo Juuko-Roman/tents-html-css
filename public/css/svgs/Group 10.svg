@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2131.462" height="296.937" viewBox="0 0 2131.462 296.937">
+  <defs>
+    <filter id="Path_17" x="0" y="0" width="2131.462" height="231.744" filterUnits="userSpaceOnUse">
+      <feOffset dy="9" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.62"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_13" data-name="Group 13" transform="translate(6833.973 205.737)">
+    <path id="Path_19" data-name="Path 19" d="M-72.681-134.985,271.8-44.018l129.17,30.1L674.331,35.51l174.988,13.3,183-4.8L1672.708-91.161h56.207l130.8,66.376,127.6,60.8,49.2,18.133v95.067H587.284l-658.632-3.225Z" transform="translate(-6751.319 -58.015)" fill="#d8d6d6"/>
+    <g transform="matrix(1, 0, 0, 1, -6833.97, -205.74)" filter="url(#Path_17)">
+      <path id="Path_17-2" data-name="Path 17" d="M-8277.578-340.709c125.829,40.66,345.007,103.457,496.235,136.26,286.3,62.1,559.93,53.623,559.93,53.623s476.626-85.838,680.5-134.028a122.58,122.58,0,0,1,29.276-3.529c34.512.209,52.867,14.311,83.829,25.373,29.545,11.972,65.632,31.973,96.4,46,85.341,38.907,161.7,76.167,161.7,76.167" transform="translate(8288.88 347.85)" fill="none" stroke="#a14292" stroke-width="15"/>
+    </g>
+  </g>
+</svg>

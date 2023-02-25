@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>home</title>
+	<link rel="stylesheet" type="text/css" href="css/css-mobile.css">
+<link rel="stylesheet" type="text/css" href="css/css-desktop.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<!-- header -->
+	<div class="header-wrap">
+		<div class="header-content">
+			<div class="logo">
+				<img src="css/svgs/Group 5.svg" alt="">
+				<a  href="javascript:void(0);" class="icon" onclick="myFunction()" style="font-size: 40px">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
+			<ul id="nav-bar" class="navigation">
+				<li><a href="index.html">Home  </a></li>
+				<li>
+					<a href="contact-us.html">Products 
+						<!-- <i class="fa fa-caret-down" style="font-size:20px;margin-left: 5px;"></i> -->
+					</a>
+				</li>
+				<li><a href="about-us.html">About Us </a></li>
+				<li><a href="contact-us.html">Services </a></li>
+				<li class="contact-us"><a href="contact-us.html">Contact Us</a></li>
+			</ul>
+		</div>
+	</div>
+	
+<div class="upperSvg"></div>
+<div class="tent-details">
+	<div>
+		<p>CAMPING TENTS</p>
+		<hr style="border: 1px solid black; width: 300px;">
+		<div class="row-items" >
+			<div class="pic">
+			<img src="images/istockphoto-508403819-612x612.jpg" style="border-radius: 15px;display: block;
+  
+  width: 100%; height: 40vh;" alt="">
+		</div>
+		<div class="desc" >
+			<p style="font-weight: bold;">2 Person Camping Tents</p>
+			<p>
+			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt eligendi reprehenderit fugiat temporibus. Eveniet illum sapiente in aliquam error, est consectetur voluptatem ipsam molestiae iure nobis magnam earum assumenda. Excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ducimus, animi aut autem tenetur exercitationem optio dolores pariatur inventore odio dolor distinctio a fuga omnis cupiditate nemo eum dolorum placeat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi unde totam 
+		</p>
+		<div class="row">
+					<button class="send-btn" name="submit" onclick="showDataSheet('images/west-coast-frame-tents.jpg','50 sitter tent','A 50 sitter single pick canopy tent is an ideal tent for small functions and also good for the gardens and resorts')" type="submit" style="font-size:18px">View details</button>
+					
+				</div>
+		</div>
+		</div>
+		<hr>
+		<div class="row-items" >
+			<div class="pic">
+			<img src="images/scout-patrol-camping-tent.jpg" style="border-radius: 15px;display: block;
+  
+  width: 100%; height: 40vh;" alt="">
+		</div>
+		<div class="desc" >
+			<p style="font-weight: bold;">Scout Tents</p>
+			<p>
+			Patrol tents (group) 14f * 14f sizes in brown colour, olive green and scout green colours .<br>
+			TYPE: for scout tents; Patrol, Dome, Tunnel, Bel, Quickpitch, Frame, SemiGeodesic, Geodesic. <br>
+			DOME; it’s a strightforwarde dome tent which is quick and easy to erect.
+		</p>
+		<div class="row">
+					<button class="send-btn" name="submit" onclick="showDataSheet('images/west-coast-frame-tents.jpg','50 sitter tent','A 50 sitter single pick canopy tent is an ideal tent for small functions and also good for the gardens and resorts')" type="submit" style="font-size:18px">View details</button>
+					
+				</div>
+		</div>
+		</div>
+		<hr>
+		<div class="row-items" >
+			<div class="pic">
+			<img src="images/Vango_Utopia_II_Air_TC_500_Zelt_cloud_grey[1920x1920].jpg" style="border-radius: 15px;display: block;
+  
+  width: 100%; height: 40vh;" alt="">
+		</div>
+		<div class="desc" >
+			<p style="font-weight: bold;">Core 10 Cabin tent</p>
+			<p>
+			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt eligendi reprehenderit fugiat temporibus. Eveniet illum sapiente in aliquam error, est consectetur voluptatem ipsam molestiae iure nobis magnam earum assumenda. Excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ducimus, animi aut autem tenetur exercitationem optio dolores pariatur inventore odio dolor distinctio a fuga omnis cupiditate nemo eum dolorum placeat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi unde totam 
+		</p>
+		<div class="row">
+					<button class="send-btn" name="submit" onclick="showDataSheet('images/west-coast-frame-tents.jpg','50 sitter tent','A 50 sitter single pick canopy tent is an ideal tent for small functions and also good for the gardens and resorts')" type="submit" style="font-size:18px">View details</button>
+					
+				</div>
+		</div>
+		</div>
+
+	</div>
+</div>
+<div id="overlay" onclick="closeDataSheet()" class="overlay" style="height: 100% ;width:100%; position: fixed; top: 0; background: rgba(0, 0, 0, 0.6); display: none;">
+	
+</div>
+<div id="popup" class="popup-details" onclick="closeDataSheet()">
+	<div class="image-container">
+		<img id="bigImage" src="images/GREEN-CANTILEVER-CAR-SHADE~1.jpg" alt="">
+	</div>
+	<div class="lpart">
+		<div class="leftcol">
+			<div class="mytable">
+				<div class="tablerow">
+					<div class="heading">
+						Colors
+					</div>
+					<div id="colors" class="corrData">
+						Green and Tan
+					</div>
+				</div>
+				<div class="tablerow">
+					<div class="heading">
+						Use
+					</div>
+					<div id="use"  class="corrData">
+						Providing shade for vehicles
+					</div>
+				</div>
+				<div class="tablerow">
+					<div class="heading">
+						Measurements
+					</div>
+					<div id="measurements" class="corrData">
+						(15*24)ft - (15*23)M
+					</div>
+				</div>
+			</div>
+			<div class="imgCont">
+				<img id="rightImage" src="images/Sexy-Lady-Car-Parking-Shade-6.jpg" alt="">
+			</div>
+		</div>
+		<div class="rightCol">
+			<div class="imgCont">
+				<img id="leftImage" src="images/CAR-SHADE-9.png" alt="">
+			</div>
+			<div class="descptn">
+				<h3>Description</h3>
+				<hr style="width:200px; border-color: black;">
+				<p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse possimus, obcaecati doloremque veniam consectetur voluptatum, animi ducimus </p>
+			</div>
+		</div>
+	</div>
+		
+</div>
+<div class="lowerSvg"></div>
+
+	<!-- footer -->
+	<div class="footer">
+		<div>
+			<div class="footer-logo">
+				<img src="css/svgs/Group 5.svg" alt="" style="display: block;
+
+				width: 90%; ">
+			</div>
+			<div class="contacts">
+				<p>
+					<i class="fa fa-map-marker" style="margin-right: 20px;"></i> KIREKA NEAR WASHING BAY
+				</p>
+				<p><i class="fa fa-phone" style="margin-right: 20px;"></i>0759574581 or 0776808890</p>
+			</div>
+			<div class="social-media-logos">
+				<div> <i class="fa fa-twitter" style="font-size:30px"></i></div>
+				<div> <i class="fa fa-whatsapp" style="font-size:30px"></i></div>
+				<div>
+					<i class="fa fa-google" style="font-size:30px"></i></div>
+					<div><i class="fa fa-facebook-f" style="font-size:30px"></i></div>
+				</div>
+			</div>
+		</div>
+		<script src="js/scripts.js"></script>
+		<script src="js/dataSheet.js"></script>
+	</body>
+	</html><!-- 

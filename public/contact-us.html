@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>home</title>
+	<link rel="stylesheet" type="text/css" href="css/css-mobile.css">
+<link rel="stylesheet" type="text/css" href="css/css-desktop.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<!-- header -->
+	<div class="header-wrap">
+		<div class="header-content">
+			<div class="logo">
+				<img src="css/svgs/Group 5.svg" alt="">
+				<a  href="javascript:void(0);" class="icon" onclick="myFunction()" style="font-size: 40px">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
+			<ul id="nav-bar" class="navigation">
+				<li><a href="index.html">Home  </a></li>
+				<li>
+					<a href="contact-us.html">Products 
+						<!-- <i class="fa fa-caret-down" style="font-size:20px;margin-left: 5px;"></i> -->
+					</a>
+				</li>
+				<li><a href="about-us.html">About Us </a></li>
+				<li><a href="contact-us.html">Services </a></li>
+				<li class="contact-us"><a href="contact-us.html">Contact Us</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="upperSvg"></div>
+	<div class="contact-us-page-main">
+		<div class="contact-us-info">
+			<div class="contact-us-title">CONTACT US</div>
+			<hr style="border: 1px solid black; width: 100%; margin-bottom: 70px;" >
+			<P>For more Inquiries, Quotes, Orders</P>
+			<P>TEL: 0759574581 or 0776808890</P>
+			<P><i class="fa fa-whatsapp" style="margin-right: 5px"></i> (0759574581 / 0776808890)</P>
+		</div>
+
+		<div class="contact-us-form">
+			<hr style="margin-bottom: 50px;">
+			<div class="row">
+				<div class="column" style="margin-right: 35px;">
+					<p><label for="">First Name</label></p>
+					<input type="text" placeholder="First name">
+				</div>
+				<div class="column">
+					<p><label for="">Last Name</label></p>
+					<input type="text" placeholder="Last name">
+				</div>
+			</div>
+			<div class="row">
+				<p><label for="">Email</label></p>
+				<input type="email" placeholder="Your email here">
+			</div>
+			<div class="row">
+				<p><label for="">Phone</label></p>
+				<input type="text" placeholder="Your phone number here">
+			</div>
+			<div class="row">
+				<p><label for="">Specifications</label></p>
+				<textarea name="specifications" id="specifications" cols="30" rows="10"></textarea>
+			</div>
+			<div class="row">
+				<button class="send-btn" onclick="sendEmail()" type="submit">SEND</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- footer -->
+	<div class="footer">
+		<div>
+			<div class="footer-logo">
+				<img src="css/svgs/Group 5.svg" alt="" style="display: block;
+
+				width: 90%; ">
+			</div>
+			<div class="contacts">
+				<p>
+					<i class="fa fa-map-marker" style="margin-right: 20px;"></i> KIREKA NEAR WASHING BAY
+				</p>
+				<p><i class="fa fa-phone" style="margin-right: 20px;"></i>07773777377</p>
+			</div>
+			<div class="social-media-logos">
+				<div> <i class="fa fa-twitter" style="font-size:30px"></i></div>
+				<div> <i class="fa fa-whatsapp" style="font-size:30px"></i></div>
+				<div>
+					<i class="fa fa-google" style="font-size:30px"></i></div>
+					<div><i class="fa fa-facebook-f" style="font-size:30px"></i></div>
+				</div>
+			</div>
+		</div>
+		<script src="js/scripts.js"></script>
+		
+	</body>
+	</html>
